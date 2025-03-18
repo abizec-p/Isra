@@ -1,0 +1,142 @@
+.contact-section{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(228, 228, 228);
+}
+.contact {
+    padding: 50px 20px;
+    width: 20dvw;
+}
+.contact h1{
+    color: var(--main-color);
+    padding: 20px 0;
+}
+.social-media{
+    padding-top: 10px;
+}
+.social-media img{
+    height: 30px;
+    padding: 10px;
+}
+.social-media a{
+    text-decoration: none;
+}
+
+.message-box{
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+}
+.message-box h1{
+    padding: 10px 0;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+}
+.contact-form input, textarea{
+    padding: 10px 20px;
+    width: 300px;
+    border-radius: 5px;
+    margin: 10px 0;
+
+    border: none;
+    outline: none;
+}
+.contact-form textarea{
+    height: 50px;
+    resize: none;
+}
+
+.contact-form button{
+    width: 100px;
+    padding: 8px 20px;
+    background-color: var(--main-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+
+
+}
+.map{
+    margin-top: 80px;
+}
+
+@media (max-width: 999px) {
+    .contact-section{
+        display: block;
+        justify-content: center;
+        justify-content: space-around;
+        background-color: rgb(228, 228, 228);
+    }
+    .contact {
+        padding: 10px 20px;
+        width: 90dvw;
+    }
+    .contact h1{
+        color: var(--main-color);
+        padding: 20px 0;
+    }
+    .social-media{
+        padding-top: 10px;
+    }
+    .social-media img{
+        height: 30px;
+        padding: 10px;
+    }
+    .social-media a{
+        text-decoration: none;
+    }
+    
+    .message-box{
+        padding: 10px 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .message-box h1{
+        padding: 10px 0;
+    }
+    .contact-form{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-form input, textarea{
+        padding: 10px 20px;
+        width: 80dvw;
+        border-radius: 5px;
+        margin: 10px 0;
+    
+        border: none;
+        outline: none;
+    }
+    .contact-form textarea{
+        height: 50px;
+        resize: none;
+    }
+    
+    .contact-form button{
+        width: 100px;
+        padding: 8px 20px;
+        background-color: var(--main-color);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+        margin-top: 10px;
+    
+    
+    }  
+    .map {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+        
+    }
+    .map iframe{
+        width: 90dvw;
+    }
+    
+}

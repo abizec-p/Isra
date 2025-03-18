@@ -1,0 +1,112 @@
+.services{
+    background: linear-gradient(rgba(255, 255, 255, 0.597), rgb(255, 255, 255)), url(../assets/background-services.jpg);
+    background-position: center;
+    background-size: cover;
+
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.services-intro{
+    text-align: center;
+    width: 40%;
+}
+.services-intro h1{
+padding-top: 80px; 
+padding-bottom: 20px;
+   font-size: 25px;
+    color: var(--main-color);
+}
+.services-intro p{
+    padding-top: 20px;
+}
+
+.main-services{
+    display: flex;
+    margin-top: 50px;
+
+
+}
+.main-services div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-color);
+    color: white;
+    height: 200px;
+    width: 200px;
+transition: 0.3s;
+    padding: 20px;
+    margin: 30px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.main-services div:hover{
+    font-weight: bold;
+}
+.main-services div img{
+    height: 80px;
+    padding: 5px;
+}
+@media (max-width: 999px) {
+    .services{
+        background: linear-gradient(rgba(255, 255, 255, 0.597), rgb(255, 255, 255)), url(../assets/background-services.jpg);
+        background-position: center;
+        background-size: cover;
+    
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+    .services-intro{
+        text-align: center;
+        width: 80%;
+    }
+    .services-intro h1{
+    padding-top: 60px; 
+    padding-bottom: 5px;
+       font-size: 25px;
+        color: var(--main-color);
+    }
+    .services-intro p{
+        padding-top: 5px;
+    }
+    
+    .main-services{
+        display: block;
+        margin-top: 50px;
+    
+    
+    }
+    .main-services div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--main-color);
+        color: white;
+        height: 200px;
+        width: 200px;
+    transition: 0.3s;
+        padding: 20px;
+        margin: 30px;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+    .main-services div:hover{
+        font-weight: bold;
+    }
+    .main-services div img{
+        height: 80px;
+        padding: 5px;
+    }
+    
+    
+}
